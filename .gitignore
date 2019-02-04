@@ -30,14 +30,17 @@ bower_components
 .lock-wscript
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
+# Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
 
 # Dependency directories
 node_modules/
 node_modules/*
-jspm_packages/
 
 # Typescript v1 declaration files
+jspm_packages/
+
+# TypeScript v1 declaration files
 typings/
 
 # Optional npm cache directory
@@ -58,7 +61,12 @@ typings/
 # dotenv environment variables file
 .env
 
+<<<<<<< HEAD
 # IDE specific files
 .vscode
 .idea
 .npproject 
+=======
+# next.js build output
+.next
+>>>>>>> f8a7e9b95003b712a9653e5e19373e267189f19c
